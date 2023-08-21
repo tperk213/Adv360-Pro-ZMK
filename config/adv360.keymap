@@ -79,11 +79,11 @@
 
         layer_Symbols {
             bindings = <
- &trans  &trans         &trans  &trans   &trans  &trans            &trans                                                           &trans  &trans                &trans                 &trans     &trans     &trans  &trans
- &trans  &trans         &trans  &trans   &trans  &trans            &trans                                                           &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS     &trans  &trans
- &trans  &trans         &trans  &trans  &kp DEL  &trans            &trans  &trans  &trans                  &trans   &trans          &trans  &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp ESC  &kp EQUAL  &trans
+ &trans  &trans         &trans  &trans   &trans  &trans            &trans                                                   &trans          &trans                &trans                 &trans     &trans     &trans  &trans
+ &trans  &trans         &trans  &trans   &trans  &trans            &trans                                                   &trans          &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS     &trans  &trans
+ &trans  &trans         &trans  &trans  &kp DEL  &trans            &trans  &trans  &trans                  &trans  &trans   &trans  &kp UNDERSCORE        &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp ESC  &kp EQUAL  &trans
  &trans  &trans  &kp BACKSPACE  &trans   &trans  &trans                            &trans                  &trans                           &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp GRAVE     &trans  &trans
- &trans  &trans         &trans  &trans   &trans                    &trans  &trans  &trans                  &trans  &kp TAB  &kp UNDERSCORE                        &trans                 &trans     &trans     &trans  &trans
+ &trans  &trans         &trans  &trans   &trans                    &trans  &trans  &trans                  &trans  &trans  &kp TAB                                &trans                 &trans     &trans     &trans  &trans
             >;
         };
 
