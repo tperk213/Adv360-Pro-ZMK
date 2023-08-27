@@ -79,11 +79,11 @@
 
         layer_Symbols {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                          &trans  &trans                &trans                 &trans     &trans     &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                          &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS     &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans          &trans  &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp ESC  &kp EQUAL  &trans
- &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                          &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &trans   &kp FSLH  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &kp UNDERSCORE                        &trans                 &trans     &trans     &trans  &trans
+ &trans  &trans  &trans  &trans  &trans    &trans            &trans                                                   &trans   &trans                &trans                 &trans     &trans     &trans  &trans
+ &trans  &trans  &trans  &trans  &trans    &trans            &trans                                                   &trans   &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS     &trans  &trans
+ &trans  &trans  &trans  &trans  &trans    &trans            &trans  &trans  &trans                  &trans  &trans   &trans  &kp DEL        &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp ESC  &kp EQUAL  &trans
+ &trans  &trans  &trans  &trans  &trans  &kp BSPC                            &trans                  &trans                    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp GRAVE   &kp FSLH  &trans
+ &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans                  &trans  &trans  &kp TAB                         &trans                 &trans     &trans    &kp INS  &trans
             >;
         };
 
