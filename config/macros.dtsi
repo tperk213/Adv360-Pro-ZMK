@@ -30,7 +30,7 @@ bindings = <&kp LCTRL &kp K>;
 };
 macro_leftctrlj: macro_leftctrlj{
 compatible = "zmk,behavior-macro";
-label = "macro_leftctrl+j";
+label = "macro_leftctrlj";
 #binding-cells = <0>;
 bindings = <&kp LCTRL &kp J>;
 };

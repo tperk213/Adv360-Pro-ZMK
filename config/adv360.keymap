@@ -50,11 +50,11 @@
 
         layer_keypad {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2             &kp N3             &kp N4  &kp N5               &none                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-   &kp TAB      &kp Q     &kp W              &kp E              &kp R   &kp T               &none                                                                 &none   &kp Y      &kp N7        &kp N8         &kp N9     &kp KP_MINUS   &kp BSLH
-   &kp ESC      &kp A     &kp S              &kp D              &kp F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H      &kp N4        &kp N5         &kp N6      &kp KP_PLUS    &kp SQT
- &kp LSHFT      &kp Z     &kp X  &macro_leftctrl+j  &macro_leftcrtl+k   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N      &kp N1        &kp N2         &kp N3     &kp KP_ENTER  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS           &kp LEFT          &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0              &kp UP        &kp N0     &kp KP_DOT         &kp BSLH      &mo 2
+ &kp EQUAL     &kp N1    &kp N2            &kp N3            &kp N4  &kp N5               &none                                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+   &kp TAB      &kp Q     &kp W             &kp E             &kp R   &kp T               &none                                                                 &none   &kp Y      &kp N7        &kp N8         &kp N9     &kp KP_MINUS   &kp BSLH
+   &kp ESC      &kp A     &kp S             &kp D             &kp F   &kp G               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none   &kp H      &kp N4        &kp N5         &kp N6      &kp KP_PLUS    &kp SQT
+ &kp LSHFT      &kp Z     &kp X  &macro_leftctrlj  &macro_leftcrtlk   &kp B                                 &kp HOME                  &kp PG_UP                         &kp N      &kp N1        &kp N2         &kp N3     &kp KP_ENTER  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp CAPS          &kp LEFT         &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp KP_N0              &kp UP        &kp N0     &kp KP_DOT         &kp BSLH      &mo 2
             >;
         };
 
@@ -80,11 +80,11 @@
 
         layer_Symbols {
             bindings = <
- &trans  &trans  &trans  &trans  &trans    &trans            &trans                                                         &trans   &trans                &trans                 &trans         &trans         &trans  &trans
- &trans  &trans  &trans  &trans  &trans    &trans            &trans                                                         &trans   &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp Z         &trans  &trans
- &trans  &trans  &trans  &trans  &trans    &trans            &trans  &trans  &trans                        &trans  &trans   &trans  &kp DEL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS        &kp ESC      &kp EQUAL  &trans
- &trans  &trans  &trans  &trans  &trans  &kp BSPC                            &trans                        &trans                    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE       &kp FSLH  &trans
- &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans                  &bt BT_SEL 1  &trans  &kp TAB                  &macro_lgui+6          &macro_lgui+7  &macro_lgui+8  &macro_lgui+9  &trans
+ &trans  &trans  &trans  &trans  &trans    &trans            &trans                                                         &trans   &trans                &trans                 &trans        &trans        &trans  &trans
+ &trans  &trans  &trans  &trans  &trans    &trans            &trans                                                         &trans   &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE         &kp Z        &trans  &trans
+ &trans  &trans  &trans  &trans  &trans    &trans            &trans  &trans  &trans                        &trans  &trans   &trans  &kp DEL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp ESC     &kp EQUAL  &trans
+ &trans  &trans  &trans  &trans  &trans  &kp BSPC                            &trans                        &trans                    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp GRAVE      &kp FSLH  &trans
+ &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans                  &bt BT_SEL 1  &trans  &kp TAB                   &macro_lgui6           &macro_lgui7  &macro_lgui8  &macro_lgui9  &trans
             >;
         };
 
