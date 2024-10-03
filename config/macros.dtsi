@@ -1,3 +1,9 @@
+macro_lguispace: macro_lguispace{
+compatible = "zmk,behavior-macro";
+label = "macro_lguispace";
+#binding-cells = <0>;
+bindings = <&sk LGUI>, <&kp SPACE>;
+};
 macro_lgui9: macro_lgui9{
 compatible = "zmk,behavior-macro";
 label = "macro_lgui9";
@@ -30,13 +36,13 @@ bindings = <&sk LCTRL &kp K>;
 };
 macro_leftcrtlh: macro_leftcrtlh{
 compatible = "zmk,behavior-macro";
-label = "macro_leftcrtlk";
+label = "macro_leftcrtlh";
 #binding-cells = <0>;
 bindings = <&sk LCTRL &kp H>;
 };
 macro_leftcrtll: macro_leftcrtll{
 compatible = "zmk,behavior-macro";
-label = "macro_leftcrtlk";
+label = "macro_leftcrtll";
 #binding-cells = <0>;
 bindings = <&sk LCTRL &kp L>;
 };
