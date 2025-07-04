@@ -40,17 +40,17 @@
 &kp TAB    &kp SQT   &kp COMMA  &kp DOT       &kp P           &kp Y  &none                                                &none      &kp F  &kp G           &kp C          &kp R  &kp FSLH  &kp BSLH
 &kp ESC    &kp A     &kp O      &kp E         &lt 5 U         &kp I  &none  &kp LEFT_ALT  &none      &none  &bt BT_SEL 1  &none      &kp D  &kp H           &kp T          &kp N  &kp S     &kp MINUS
 &kp LSHFT  &kp SEMI  &kp Q      &kp J         &kp K           &kp X                       &none      &none                           &kp B  &kp M           &kp W          &kp V  &kp L     &kp RSHFT
-&kp LSHFT  &none     &none      &kp LEFT_GUI  &kp LEFT_SHIFT         &mo 4  &kp LCTRL     &none      &none  &kp ENTER     &kp SPACE         &kp LEFT_SHIFT  &kp RIGHT_GUI  &none  &none     &kp LEFT_SHIFT
+&kp LSHFT  &none     &none      &kp LEFT_GUI  &kp LEFT_SHIFT         &mo 4  &kp LCTRL     &to 1      &none  &kp ENTER     &kp SPACE         &kp LEFT_SHIFT  &kp RIGHT_GUI  &none  &none     &kp LEFT_SHIFT
             >;
         };
 
         layer_keypad {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3            &kp N4            &kp N5  &none                                                    &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E             &kp R             &kp T   &none                                                    &none      &kp Y   &kp N7      &kp N8        &kp N9         &kp KP_MINUS     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D             &kp F             &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp N4      &kp N5        &kp N6         &kp KP_PLUS      &kp SQT
-&kp LSHFT  &kp Z      &kp X     &macro_leftctrlj  &macro_leftcrtlk  &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp N1      &kp N2        &kp N3         &kp KP_ENTER     &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT          &kp RIGHT                 &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &kp UP      &kp N0        &kp KP_DOT     &kp BSLH         &mo 2
+&kp EQUAL  &kp N1     &kp N2    &kp N3            &kp N4            &kp N5  &none                                                 &mo 3  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E             &kp R             &kp T   &none                                                 &none  &kp Y   &kp U       &kp I         &kp O          &kp P            &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D             &kp F             &kp G   &none  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none  &kp H   &kp J       &kp K         &kp L          &kp KP_PLUS      &kp SQT
+&kp LSHFT  &kp Z      &kp X     &macro_leftctrlj  &macro_leftcrtlk  &kp B                     &kp HOME      &kp PG_UP                    &kp N   &kp M       &kp COMMA     &kp PERIOD     &kp KP_ENTER     &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT          &kp RIGHT                 &kp C  &kp V      &to 0         &kp PG_DN  &kp N      &kp M          &kp UP      &kp N0        &kp KP_DOT     &kp BSLH         &mo 2
             >;
         };
 
